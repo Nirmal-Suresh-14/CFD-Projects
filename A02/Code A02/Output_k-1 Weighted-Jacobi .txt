@@ -1,0 +1,16 @@
+
+
+			 ######  Result V-Cycle #####
+
+	 Grid_Size: 512		 k: 1		 sigma: 1
+	 nu1: 2	 nu2: 2	 Relaxation_Method: Weighted-Jacobi	Weight: 0.6667
+
+	 Iteration:1 		Error: 1.7990  		Residual: 25.31937602
+	 Iteration:2 		Error: 0.2023  		Residual: 3.01669153
+	 Iteration:3 		Error: 0.0227  		Residual: 0.34780880
+	 Iteration:4 		Error: 0.0025  		Residual: 0.03991357
+	 Iteration:5 		Error: 0.0002  		Residual: 0.00456631
+	 Iteration:6 		Error: 0.0000  		Residual: 0.00052081
+	 Iteration:7 		Error: 0.0000  		Residual: 0.00005923
+	 Iteration:8 		Error: 0.0000  		Residual: 0.00000672
+	 Iteration:9 		Error: 0.0000  		Residual: 0.00000076

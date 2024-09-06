@@ -1,0 +1,27 @@
+
+	##### Inputs to Multigrid Problem #####
+
+
+	*** Grid Inputs ***
+		Grid Size(n): 512
+
+	*** Relaxation Method ***
+		Method(J-Weighted_Jacobi, G-Gauss_Seidel): J
+		Jacobi_Weight(w): 2/3
+		
+	*** V-Cycle Inputs ***
+		nu1: 2
+		nu2: 2
+
+	*** Initial Value Constants ***
+		k: 1
+		sigma: 1
+
+	*** Termination Condition ***
+		Epsilon[1x10^value]: -6
+		Max Iteration: 100
+
+	*** Multigrid Method ***
+		Method(V-Cycle(V), Full-Multigrid(F)): F
+		nu0: 1
+		FMG_level: 9

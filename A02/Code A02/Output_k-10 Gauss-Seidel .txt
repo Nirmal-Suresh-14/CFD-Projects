@@ -1,0 +1,15 @@
+
+
+			 ######  Result V-Cycle #####
+
+	 Grid_Size: 512		 k: 10		 sigma: 1
+	 nu1: 2	 nu2: 2	 Relaxation_Method: Gauss-Seidel	
+
+	 Iteration:1 		Error: 0.5161  		Residual: 1843.93723476
+	 Iteration:2 		Error: 0.0159  		Residual: 81.97295693
+	 Iteration:3 		Error: 0.0050  		Residual: 2.88265020
+	 Iteration:4 		Error: 0.0050  		Residual: 0.09682910
+	 Iteration:5 		Error: 0.0050  		Residual: 0.00316661
+	 Iteration:6 		Error: 0.0050  		Residual: 0.00010339
+	 Iteration:7 		Error: 0.0050  		Residual: 0.00000344
+	 Iteration:8 		Error: 0.0050  		Residual: 0.00000012
