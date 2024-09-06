@@ -1,0 +1,40 @@
+
+	##### Inputs to 2D Lid Driven Cavity #####
+
+	*** Material Constants ***
+		Re: 1000
+
+	*** Grid Inputs ***
+		x-length: 1
+		x-no of divisions(no.): 128
+		y-length: 1
+		y-no of divisions(no.): 128
+
+	*** Boundary Conditions ***
+		U-Velocity
+			Left Value: 0
+			Right Value: 0
+			Top Value: 1
+			Bottom Value: 0
+
+		V-Velocity
+			Left Value: 0
+			Right Value: 0
+			Top Value: 0
+			Bottom Value: 0
+
+	*** Initialisation Values ***
+		U: 0
+		V: 0
+		P: 0
+
+	*** Under Relaxation Values ***
+		Velocity: 0.99
+		Pressure: 0.99
+
+	*** Termination Condition ***
+		Epsilon[1x10^value]: -5
+		Max Iteration: 14000
+
+	*** Method to solve Ax=B ***
+		Jacobi(J)/Gauss Seidel(G): J
