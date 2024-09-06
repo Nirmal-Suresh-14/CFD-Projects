@@ -1,0 +1,26 @@
+
+	##### Inputs to Conjugate Gradient #####
+
+
+	*** Control Volume Inputs ***
+		x-direction(n): 128
+		y-direction(m): 128
+
+
+	*** Boundary Conditions ***
+		Temp Top: 1
+		Temp Bottom: 0
+		Temp Left: 0
+		Temp Right: 0
+
+	*** Solution Method ***
+		1. Conjugate Gradient
+		2. Preconditioned CG, Jacobi
+		3. Preconditioned CG, ILU
+		4. Preconditioned CG, SIP
+		5. Analytical Solution
+		Selection (1, 2, 3, 4, 5): 2
+		
+	*** Termination Condition ***
+		Epsilon[1x10^value]: -6
+		Max Iteration: 500
